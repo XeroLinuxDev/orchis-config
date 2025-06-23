@@ -1,16 +1,18 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 	"logo": {
-        "source": "~/.config/fastfetch/think.jpg",
+        "source": "~/.config/fastfetch/ninja.png",
         "type": "kitty",
-        "height": 28,
-        "width": 32,
+        "color": {"1": "magenta"},
+	"color": {"2": "blue"},
+	"height": 24,
+        "width": 36,
         "padding": {
-            "top": 1,
+            "top": 2,
            "left": 3
         }
     },
-
+	
 	"modules": [
       "break",
 	  	{
@@ -30,61 +32,61 @@
 			"format": "\u001b[33m└──────────────────────────────────────────────────────────────────────────┘",
 			"keyWidth": 20
 		},
-
+	 
 	 	{
  			"type": "custom",
-			"format": "\u001b[34m┌──────────────────────────────   Hardware   ────────────────────────────┐",
+			"format": "\u001b[35m┌──────────────────────────────   Hardware   ────────────────────────────┐",
 			"keyWidth": 20
 		},
 		{
 			"type": "board",
 			"key": "  Motherboard",
 			"format": "{1}",
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"keyWidth": 20
 		},
 		{
 			"type": "bios",
 			"key": "│  ├  BIOS",
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"keyWidth": 20
 		},
 		{
 			"type": "battery",
 			"key": "│  └ Battery",
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"keyWidth": 20
 		},
 		{
 			"type": "cpu",
 			"key": "│  ├󰻠  CPU",
 			"showPeCoreCount": true,
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"keyWidth": 20
 		},
 		{
 			"type": "gpu",
 			"key": "│  ├󰢮  GPU",
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"format": "{2}",
 			"keyWidth": 20
 		},
 		{
 			"type": "memory",
 			"key": "│  ├󰑭  RAM",
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"keyWidth": 20
 		},
 		{
 			"type": "disk",
 			"key": "│  └󰋊  Disk",
 			"folders": "/",
-			"keyColor": "blue",
+			"keyColor": "magenta",
 			"keyWidth": 20
 		},
 		{
 			"type": "custom",
-			"format": "\u001b[34m└──────────────────────────────────────────────────────────────────────────┘",
+			"format": "\u001b[35m└──────────────────────────────────────────────────────────────────────────┘",
 			"keyWidth": 20
 		},
 		{
@@ -137,45 +139,45 @@
 		},
 		{
 			"type": "custom",
-			"format": "\u001b[31m┌────────────────────────   Graphical Interface   ───────────────────────┐",
+			"format": "\u001b[34m┌────────────────────────   Graphical Interface   ───────────────────────┐",
 			"keyWidth": 20
 		},
 		{
 			"type": "wm",
 			"key": "  DE",
-			"keyColor": "red",
+			"keyColor": "blue",
 			"keyWidth": 20
 		},
 		{
 			"type": "theme",
 			"key": "│  ├󰉼  Theme",
 			"format": "{2}",
-			"keyColor": "red",
+			"keyColor": "blue",
 			"keyWidth": 20
 		},
 		{
 			"type": "icons",
 			"key": "│  ├󰀻  Icons",
 			"format": "{2}",
-			"keyColor": "red",
+			"keyColor": "blue",
 			"keyWidth": 20
 		},
 		{
 			"type": "terminal",
 			"key": "│  ├  Terminal",
-			"keyColor": "red",
+			"keyColor": "blue",
 			"keyWidth": 20
 		},
 		{
 			"type": "font",
 			"key": "│  └  UI Font",
 			"format": "{2}",
-			"keyColor": "red",
+			"keyColor": "blue",
 			"keyWidth": 20
 		},
 		{
 			"type": "custom",
-			"format": "\u001b[31m└──────────────────────────────────────────────────────────────────────────┘",
+			"format": "\u001b[34m└──────────────────────────────────────────────────────────────────────────┘",
 			"keyWidth": 20
 		},
 		// {

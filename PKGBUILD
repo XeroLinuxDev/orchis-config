@@ -2,7 +2,7 @@
 pkgname=orchis-config
 _destname1="/etc"
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Desktop Config for XeroLinux (KDE)"
 arch=('any')
 url="https://github.com/XeroLinuxDev"
