@@ -8,12 +8,13 @@
 	"height": 24,
         "width": 36,
         "padding": {
-            "top": 2,
+            "top": 3,
            "left": 3
         }
     },
-	
+
 	"modules": [
+      "break",
       "break",
 	  	{
 			"type": "custom",
@@ -32,7 +33,7 @@
 			"format": "\u001b[33m└──────────────────────────────────────────────────────────────────────────┘",
 			"keyWidth": 20
 		},
-	 
+
 	 	{
  			"type": "custom",
 			"format": "\u001b[35m┌──────────────────────────────   Hardware   ────────────────────────────┐",
@@ -127,6 +128,13 @@
 			"keyWidth": 20
 		},
 		{
+            "type": "command",
+            "key": "│  ├󱑔  System Age",
+            "keyColor": "white",
+            "keyWidth": 20,
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+		{
 			"type": "processes",
 			"key": "│  └  Processes",
 			"keyColor": "white",
@@ -180,42 +188,6 @@
 			"format": "\u001b[34m└──────────────────────────────────────────────────────────────────────────┘",
 			"keyWidth": 20
 		},
-		// {
-		// 	"type": "custom",
-		// 	"format": "\u001b[36m┌──────────────────────────── 󰔟 System Times 󰔟 ────────────────────────────┐",
-		// 	"keyWidth": 20
-		// },
-		// {
-		// 	"type": "command",
-		// 	"key": " Linux Journey:",
-		// 	"keyColor": "blue",
-		// 	"text": "echo $(( ( $(date +%s) - $(date -d '2021-10-05' +%s) ) / 2592000 )) months",
-		// 	"keyWidth": 20
-		// },
-		// {
-		// 	"type": "command",
-		// 	"key": "│ ├Arch Journey:",
-		// 	"keyColor": "blue",
-		// 	"text": "echo $(( ( $(date +%s) - $(date -d '2024-10-03' +%s) ) / 86400 )) days",
-		// 	"keyWidth": 20
-		// },
-		// {
-		// 	"type": "command",
-		// 	"key": "│ ├Current OS Age:",
-		// 	"keyColor": "blue",
-		// 	"text": "echo $(( ( $(date +%s) - $(stat -c %W /) ) / 86400 )) days",
-		// 	"keyWidth": 20
-		// },
-		// {
-		// 	"type": "uptime",
-		// 	"key": "│ └Uptime:",
-		// 	"keyColor": "blue",
-		// 	"keyWidth": 20
-		// },
-		// {
-		// 	"type": "custom",
-		// 	"format": "\u001b[36m└──────────────────────────────────────────────────────────────────────────┘",
-		// 	"keyWidth": 20
-		// }
+      "break",
 	]
 }
