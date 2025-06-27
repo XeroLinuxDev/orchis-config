@@ -1,14 +1,14 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 	"logo": {
-        "source": "~/.config/fastfetch/ninja.png",
+        "source": "~/.config/fastfetch/scriptninjaphone.png",
         "type": "kitty",
-        "color": {"1": "magenta"},
+        "color": {"1": "green"},
 	"color": {"2": "blue"},
-	"height": 24,
-        "width": 36,
+	"height": 25,
+        "width": 30,
         "padding": {
-            "top": 3,
+            "top": 2,
            "left": 3
         }
     },
@@ -16,78 +16,78 @@
 	"modules": [
       "break",
       "break",
-	  	{
-			"type": "custom",
-			"format": "\u001b[33m┌─────────────────────── Eat 󰗲, Sleep   Xero Linux 󰣇  ────────────────────┐",
-			"keyWidth": 20
-		},
-		{
-			"type": "command",
-			"key": "󰖟  Web",
-			"keyColor": "yellow",
-			"text": "echo www.xerolinux.xyz",
-			"keyWidth": 33
-		},
-		{
-			"type": "custom",
-			"format": "\u001b[33m└──────────────────────────────────────────────────────────────────────────┘",
-			"keyWidth": 20
-		},
+	  	//{
+		//	"type": "custom",
+		//	"format": "\u001b[33m┌─────────────────────── Eat 󰗲, Sleep   Xero Linux 󰣇  ────────────────────┐",
+		//	"keyWidth": 20
+		//},
+		//{
+		//	"type": "command",
+		//	"key": "󰖟  Web",
+		//	"keyColor": "yellow",
+		//	"text": "echo www.xerolinux.xyz",
+		//	"keyWidth": 33
+		//},
+		//{
+		//	"type": "custom",
+		//	"format": "\u001b[33m└──────────────────────────────────────────────────────────────────────────┘",
+		//	"keyWidth": 20
+		//},
 
 	 	{
  			"type": "custom",
-			"format": "\u001b[35m┌──────────────────────────────   Hardware   ────────────────────────────┐",
+			"format": "\u001b[32m┌──────────────────────────────   Hardware   ────────────────────────────┐",
 			"keyWidth": 20
 		},
 		{
 			"type": "board",
 			"key": "  Motherboard",
 			"format": "{1}",
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"keyWidth": 20
 		},
 		{
 			"type": "bios",
 			"key": "│  ├  BIOS",
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"keyWidth": 20
 		},
 		{
 			"type": "battery",
 			"key": "│  └ Battery",
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"keyWidth": 20
 		},
 		{
 			"type": "cpu",
 			"key": "│  ├󰻠  CPU",
 			"showPeCoreCount": true,
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"keyWidth": 20
 		},
 		{
 			"type": "gpu",
 			"key": "│  ├󰢮  GPU",
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"format": "{2}",
 			"keyWidth": 20
 		},
 		{
 			"type": "memory",
 			"key": "│  ├󰑭  RAM",
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"keyWidth": 20
 		},
 		{
 			"type": "disk",
 			"key": "│  └󰋊  Disk",
 			"folders": "/",
-			"keyColor": "magenta",
+			"keyColor": "green",
 			"keyWidth": 20
 		},
 		{
 			"type": "custom",
-			"format": "\u001b[35m└──────────────────────────────────────────────────────────────────────────┘",
+			"format": "\u001b[32m└──────────────────────────────────────────────────────────────────────────┘",
 			"keyWidth": 20
 		},
 		{

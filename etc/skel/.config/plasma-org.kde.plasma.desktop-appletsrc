@@ -24,7 +24,7 @@ positions={"1920x1080":[]\\,"0x0":[]}
 sortMode=-1
 
 [Containments][119][Wallpaper][org.kde.image][General]
-Image=/usr/share/pixmaps/prapel.jpg
+Image=/usr/share/pixmaps/blueplasma.png
 SlidePaths=/usr/share/wallpapers
 
 [Containments][120]
@@ -53,7 +53,7 @@ ToolBoxButtonX=464
 Color=0,0,0
 
 [Containments][120][Wallpaper][org.kde.image][General]
-Image=/usr/share/pixmaps/prapel.jpg
+Image=/usr/share/pixmaps/blueplasma.png
 SlidePaths=/usr/share/wallpapers
 
 [Containments][121]
@@ -75,7 +75,7 @@ DialogWidth=800
 PreloadWeight=42
 
 [Containments][121][Wallpaper][org.kde.image][General]
-Image=/usr/share/pixmaps/prapel.jpg
+Image=/usr/share/pixmaps/blueplasma.png
 SlidePaths=/usr/share/wallpapers
 
 [Containments][126]
@@ -555,8 +555,8 @@ ToolBoxButtonY=56
 positions={"1920x1080":[]}
 
 [Containments][87][Wallpaper][org.kde.image][General]
-Image=/usr/share/pixmaps/prapel.jpg
-PreviewImage=/usr/share/pixmaps/prapel.jpg
+Image=/usr/share/pixmaps/blueplasma.png
+PreviewImage=/usr/share/pixmaps/blueplasma.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][9][Applets][24][Configuration]
